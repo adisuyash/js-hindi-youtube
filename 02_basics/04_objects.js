@@ -1,11 +1,13 @@
-// const tinderUser = new Object()
-const tinderUser = {}
+// const tinderUser = new Object() // Singleton Object
+
+const tinderUser = {} // Non-Singleton Object
+
 
 tinderUser.id = "123abc"
 tinderUser.name = "Sammy"
 tinderUser.isLoggedIn = false
 
-// console.log(tinderUser);
+console.log(tinderUser);
 
 const regularUser = {
     email: "some@gmail.com",
@@ -19,14 +21,14 @@ const regularUser = {
 
 // console.log(regularUser.fullname.userfullname.firstname);
 
-const obj1 = {1: "a", 2: "b"}
-const obj2 = {3: "a", 4: "b"}
-const obj4 = {5: "a", 6: "b"}
+const obj1 = { 1: "a", 2: "b" }
+const obj2 = { 3: "a", 4: "b" }
+const obj4 = { 5: "a", 6: "b" }
 
 // const obj3 = { obj1, obj2 }
-// const obj3 = Object.assign({}, obj1, obj2, obj4)
+// const obj3 = Object.assign({}, obj1, obj2, obj4) // {} is target & obj1,2,4 are source.
 
-const obj3 = {...obj1, ...obj2}
+const obj3 = { ...obj1, ...obj2 }
 // console.log(obj3);
 
 
@@ -63,7 +65,7 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+const { courseInstructor: instructor } = course
 
 // console.log(courseInstructor);
 console.log(instructor);
@@ -73,7 +75,6 @@ console.log(instructor);
 //     "coursename": "js in hindi",
 //     "price": "free"
 // }
-
 [
     {},
     {},

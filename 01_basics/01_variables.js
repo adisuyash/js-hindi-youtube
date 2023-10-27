@@ -1,5 +1,7 @@
 const accountId = 144553
-let accountEmail = "hitesh@google.com"
+let accountEmail = "hitesh@google.com" 
+// let variables are block scoped (while) var are globally scoped. So it's a better practice to use var variables instead of let variables
+
 var accountPassword = "12345"
 accountCity = "Jaipur"
 let accountState;
