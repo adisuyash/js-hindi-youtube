@@ -1,6 +1,8 @@
 const accountId = 144553
 let accountEmail = "hitesh@google.com" 
-// let variables are block scoped (while) var are globally scoped. So it's a better practice to use var variables instead of let variables
+// let variables are block scoped (while) var are globally scoped.
+// So it's a better practice to use let variables inside a loop for increasing & decreasing values
+// & var variables for accessing global data inside the function
 
 var accountPassword = "12345"
 accountCity = "Jaipur"
