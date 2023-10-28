@@ -4,7 +4,7 @@ let accountEmail = "hitesh@google.com"
 // So it's a better practice to use let variables inside a loop for increasing & decreasing values
 // & var variables for accessing global data inside the function
 
-var accountPassword = "12345"
+let accountPassword = "12345"
 accountCity = "Jaipur"
 let accountState;
 
