@@ -24,6 +24,7 @@ if (Object.keys(emptyObj).length === 0) {
 }
 
 // Nullish Coalescing Operator (??): null undefined
+// used in fetching data from databases
 
 let val1;
 // val1 = 5 ?? 10
@@ -35,7 +36,7 @@ val1 = null ?? 10 ?? 20
 
 console.log(val1);
 
-// Terniary Operator
+// Ternary Operator
 
 // condition ? true : false
 
