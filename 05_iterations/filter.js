@@ -12,7 +12,7 @@ const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 let adi = myNums.filter((item) => (item >= 6));
 // remember () return the values by deafult whereas {} doesn't
 
-console.log(adi)
+// console.log(adi)
 
 
 // const newNums = myNums.filter( (num) => {
@@ -42,9 +42,11 @@ const books = [
   { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
 ];
 
-let userBooks = books.filter((bk) => bk.genre === 'History')
+console.log(books.filter((mk)=> (mk.genre == 'Fiction')))
 
-userBooks = books.filter((bk) => {
-  return bk.publish >= 1995 && bk.genre === "History"
-})
-// console.log(userBooks);
+// let userBooks = books.filter((bk) => bk.genre === 'History')
+
+// userBooks = books.filter((bk) => {
+//   return (bk.publish >= 1995 && bk.genre === "History")
+// })
+// // console.log(userBooks);
