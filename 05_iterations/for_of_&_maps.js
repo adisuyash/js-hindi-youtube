@@ -14,7 +14,7 @@ for (const greet of greetings) {
     //console.log(`Each char is ${greet}`)
 }
 
-// Maps
+// Maps : Maps are objects, which holds Unique Key:Value pairs
 
 const map = new Map()
 map.set('IN', "India")
@@ -25,8 +25,8 @@ map.set('IN', "India")
 
 // console.log(map);
 
-for (const [key, value] of map) {
-    // console.log(key, ':-', value);
+for (const [key, value] of map) { // Array is De-Structured
+    // console.log(key, ':', value);
 }
 
 const myObject = {
@@ -35,6 +35,6 @@ const myObject = {
 }
 
 // for (const [key, value] of myObject) {
-//     console.log(key, ':-', value);
+//     console.log(key, ' : ', value);
     
 // }

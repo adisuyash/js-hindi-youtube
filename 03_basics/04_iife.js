@@ -1,5 +1,6 @@
 // Immediately Invoked Function Expressions (IIFE)
 // IFFE are used to remove the pollution caused by the Global Scoped variables
+// in IFFE, we use parenthesis (function/arrow function)(); 
 
 (function chai(){
     // named IIFE : as function has a name
